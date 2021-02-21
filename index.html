@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Web Development W9 | Chrisi Webster</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/35e4240984.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+      </nav>
+      <div id="cw">CW</div>
+    </header>
+    <main>
+      <h1>Welcome to my page <i class="fas fa-smile"></i></h1>
+      <section id="intro">
+        <a href="https://chrisiwebster.github.io">
+          <img
+            title="Profile picture"
+            src="https://lh3.googleusercontent.com/-ic6FnILALLI/UwxAMrr3E0E/AAAAAAAAX0g/NTbyjVae-jgj-nKZ9ENKipIb9dB5hpTIgCEwYChgbKtMDAL1OcqzlptvZgA0LgEy5_zqJK2A7uqO4PmwT9pm-nVBERjWkOd25gRABLTRD5UkylK8Lsno5_tZdyvyiEzjXuNeCB3P5NvF8J5NgFCzoiqEFiYRdRxUBFFB7FOxqU_4JnuKwvCLGUJmFVbbthAkZ2LHXnHWEzs80USDyJx7X6KtM0QtZZAFpi7iLlCrMQDB_ZjULfNMjFdVNRtnyuRfNGAqzDaW1sF10Zmf_eTB4gwVT8sShWKeMa-Hz53AyGV3WhygcN5UsGoKY0EVV3T6G8UEBpLVpgshBik4DOzxiQsKJ-O0dS6j2SSydsj5h9YdzYJS1uzlJMmqg3EzJEL7C-RCghHPcB2U9ysPx-AlVSJTi7zcTDixXKEN4A8L3s9V95CX4zSzA0Nn_nyK3dqMtlg_-6QhPBYxmsp24p-SME-R0NZ89LFWeB20kgEDi70yRmB54ymYhRzjhq8Lu8K-n9xMEJtXDMq_OSvKuVLr7VP4hCEb5646w9EN8QQV6EUw1Ic1pOyketW-ugOejQYSSdswZd5gO2d0w3mGWboKm6X31nMFA6hqDqpM332j8aylzB-odWa_YiMJiP29pisgRtlVvFhyJ3PgfbLVQI5FKvEyNRKYwi-rwgAY/w326-h220-p/ProfilePhotos02"
+            alt="A picture of Chrisi Webster"
+        /></a>
+        <div>
+          <h2>A little bit about me</h2>
+          <p>
+            My name's Chrisi and I'm taking Web Design & Development at
+            Birkbeck. Blah blah blah. Blah blah blah. Blah blah blah. Blah blah
+            blah. Blah blah blah. Blah blah blah. Blah blah blah. Blah blah
+            blah. Blah blah blah.
+          </p>
+
+          <p>
+            I also write stuff.
+            <a href="mailto:example@example.com">Email me</a> to find out more.
+          </p>
+        </div>
+      </section>
+
+      <section id="about-you">
+        <h2>Tell me a bit about you</h2>
+
+        <form method="get" action="www.google.com">
+          <fieldset>
+            <legend>Short contact form</legend>
+            <div>
+              <label for="name">Name:</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Full name"
+                required
+              />
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="example@email.com"
+                required
+              />
+            </div>
+            <div>
+              <label for="fav-color">Favourite color:</label>
+              <select id="fav-color" name="color">
+                <option value="Green">Green</option>
+                <option value="Blue">Blue</option>
+                <option value="Red">Red</option>
+              </select>
+            </div>
+            <div>
+              <label for="more-info">Want to say anything else?</label>
+              <textarea
+                placeholder="Write down anything you want here"
+                rows="10"
+                columns="200"
+              ></textarea>
+            </div>
+            <input type="button" name="submit" id="submit" value="Send away!" />
+          </fieldset>
+        </form>
+      </section>
+      <section id="shopping">
+        <h2>Shopping list</h2>
+        <div class="container">
+          <div id="list">
+            <ul>
+              <li>
+                Fruit
+                <ul>
+                  <li>Bananas</li>
+                  <li>Apples</li>
+                </ul>
+              </li>
+              <li class="cross">Bread</li>
+              <li>Toothpaste</li>
+            </ul>
+          </div>
+          <div id="pencil">
+            <i class="fas fa-pencil-alt"></i>
+          </div>
+        </div>
+      </section>
+      <section id="maths">
+        <h2>Multiplication: 10x table</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Calculation</th>
+              <th>Result</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1 x 10</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>2 x 10</td>
+              <td>20</td>
+            </tr>
+            <tr>
+              <td>3 x 10</td>
+              <td>30</td>
+            </tr>
+            <tr>
+              <td>4 x 10</td>
+              <td>40</td>
+            </tr>
+            <tr>
+              <td>5 x 10</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>6 x 10</td>
+              <td>60</td>
+            </tr>
+            <tr>
+              <td>7 x 10</td>
+              <td>70</td>
+            </tr>
+            <tr>
+              <td>8 x 10</td>
+              <td>80</td>
+            </tr>
+            <tr>
+              <td>9 x 10</td>
+              <td>90</td>
+            </tr>
+            <tr>
+              <td>10 x 10</td>
+              <td>100</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer>
+      <p>This is the bottom of the page by Chrisi &#169;</p>
+    </footer>
+  </body>
+</html>
