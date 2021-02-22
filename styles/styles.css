@@ -111,7 +111,7 @@ fieldset {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-input:not(input[type="button"]),
+input:not(input[type="submit"]),
 select {
   width: 50%;
   margin: 10px 0;
@@ -125,7 +125,7 @@ label[for="more-info"] {
   display: block;
 }
 
-input[type="button"]:hover {
+input[type="submit"]:hover {
   cursor: pointer;
   color: white;
   background-color: #8ec5fc;
